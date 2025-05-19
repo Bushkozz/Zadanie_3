@@ -1,0 +1,21 @@
+{
+    "name": "bushkozz/chocolate",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Bushkozz\\Chocolate\\": "src/",
+            "ChocolateLib\\": "src/ChocolateLib/"
+        }
+    },
+    "require": {
+        "eyelow78/chocolatelib": "*"
+    },
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/eyelow78/chocolateLib"
+        }],
+
+    "minimum-stability": "dev"
+}

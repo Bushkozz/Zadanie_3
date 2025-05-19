@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "542ce03670f228a448e3c5a9894398eb",
+    "packages": [
+        {
+            "name": "eyelow78/chocolatelib",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eyelow78/chocolateLib.git",
+                "reference": "3fd1f611d224463eed9b424e65015191d6839161"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eyelow78/chocolateLib/zipball/3fd1f611d224463eed9b424e65015191d6839161",
+                "reference": "3fd1f611d224463eed9b424e65015191d6839161",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ChocolateLib\\": "src/ChocolateLib/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/eyelow78/chocolateLib/tree/main",
+                "issues": "https://github.com/eyelow78/chocolateLib/issues"
+            },
+            "time": "2025-03-19T20:26:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "eyelow78/chocolatelib": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
